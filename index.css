@@ -1,479 +1,791 @@
-*{
-    padding: 0px;
-    margin:0px;
+.navbar-collapse {
+  display: block;
+  justify-content: end;
+  justify-content: space-evenly;
+  color: white;
+  position: relative;
+  margin-left: 500px;
+}
+.cat {
+  width: 560px;
+  margin-top: 90px;
+}
+.kon {
+  margin-left: 70px;
 }
 
-li{
-    margin-left: 30px;
+body {
+  background-image: linear-gradient(20deg, #081229, #7b3bda 10%, #081229 50%);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.contact {
+  width: 132px;
+  height: 42px;
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  border-radius: 5px;
+  border: none;
+}
+.Virtual {
+  display: flex;
+}
+.use {
+  width: 132px;
+  height: 42px;
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  border-radius: 5px;
+  border: none;
+}
+.we {
+  color: white;
+}
+span {
+  color: white;
+}
+.far {
+  width: 400px;
+  height: 348px;
+  margin-bottom: 50px;
+  padding: 30px 30px;
 }
 
-ul{
-    margin-left: 450px;
+
+.join {
+  margin-left: 100px;
+  margin-top: 70px;
 }
 
-body{
-    background-color: blue;
+span {
+  margin-top: 10px;
+  text-align: center;
+}
+.Services {
+  width: 587px;
+  text-align: center;
+  margin-left: 427px;
+  color: white;
+}
+.checklist {
+  height: 250px;
+  width: 360px;
+  text-align: center;
+  color: white;
+  background-color: rgba(211, 219, 230, 0.121);
+  padding: 27px;
+  border-radius: 20px;
 }
 
-.logo{
-    margin-left: 100px;
+.Assistant {
+  height: 250px;
+  width: 360px;
+  text-align: center;
+  color: white;
+  background-color: rgba(211, 219, 230, 0.121);
+  padding: 27px;
+  border-radius: 20px;
+}
+.Platform {
+  height: 250px;
+  width: 360px;
+  text-align: center;
+  color: white;
+  background-color: rgba(211, 219, 230, 0.121);
+  padding: 27px;
+  border-radius: 20px;
+}
+.Order {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Modules {
+  height: 250px;
+  width: 360px;
+  text-align: center;
+  color: white;
+  background-color: rgba(211, 219, 230, 0.121);
+  padding: 27px;
+  border-radius: 20px;
+}
+.Analyzer {
+  height: 250px;
+  width: 360px;
+  text-align: center;
+  color: white;
+  background-color: rgba(211, 219, 230, 0.121);
+  padding: 27px;
+  border-radius: 20px;
+}
+.Notification {
+  height: 250px;
+  width: 360px;
+  text-align: center;
+  color: white;
+  background-color: rgba(211, 219, 230, 0.121);
+  padding: 27px;
+  border-radius: 20px;
+}
+.class {
+  margin: auto;
+  height: 65px;
+  width: 70px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #8a7fd9 0%, #402f8f 100%);
+}
+.check {
+  margin: 15px auto;
 }
 
-button{
- width: 132px;
- height: 42px;
- margin-top: 20px;
- margin-right:20px;
- border-radius: 9px;
- border: none;
- color: white;
- background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+.hush {
+  margin: auto;
+  height: 65px;
+  width: 70px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #d97f95 0%, #923250 100%);
+}
+.such {
+  margin: 15px auto;
 }
 
-body{
- background: linear-gradient(20deg,#081229 ,#7b3bda 10%,#081229 50%); 
+.plat {
+  margin: auto;
+  height: 65px;
+  width: 70px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #84d8ed 0%, #4292bb 100%);
+}
+.btc {
+  margin: 15px auto;
+}
+.mode {
+  margin: auto;
+  height: 72px;
+  width: 70px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #92efc3 0%, #2f8f5b 100%);
+}
+.much {
+  margin: 15px auto;
 }
 
-.bus{
- width: 546px;
- height: 348px;
- padding-top: 250px;
- padding-left: 100px;
- color: white;
+.not {
+  margin: auto;
+  height: 72px;
+  width: 70px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #8684ed 0%, #4247bb 100%);
+}
+.money {
+  margin: 15px auto;
 }
 
-.play{
-    width: 567px;
-    height: 567px;
-    margin-left: 50px;
+.my {
+  margin: auto;
+  height: 72px;
+  width: 70px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #bc7fd9 0%, #923283 100%);
+}
+.love {
+  margin: 15px auto;
+}
+.talk {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+.complete {
+  width: 560px;
+  /* position: relative; */
+  top: 6rem;
+  left: 3rem;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.info {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+.nothing {
+  width: 560px;
+  /* position: relative; */
+  top: 6rem;
+  margin-top: 110px;
+  margin-left: 50px;
+}
+.read {
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+}
+.Executive {
+  height: 280px;
+  width: 260px;
+  text-align: center;
+  color: white;
+  background-color: rgba(31, 32, 32, 0.121);
+  padding: 25px;
+  border-radius: 30px;
 }
 
- h1{
- width: 237px;
- height: 55px;
- margin-top: 188px;
- margin-left: 604px;
- color: white;
+.Team {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Rectangle {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.Subscribe {
+  color: white;
+  background-color: rgba(31, 32, 32, 0.121);
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.Executive p {
+  font-weight: lighter;
+}
+.mail {
+  width: 700px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border-radius: 40px;
+  padding: 20px;
+  border: rgba(187, 187, 187, 0.477) solid;
+  position: relative;
+  left: 70px;
+  text-decoration: white;
+}
+.ram {
+  position: relative;
+  right: 5rem;
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  height: 40px;
+  width: 130px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+.footone {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 33px;
+  list-style: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+footer {
+  height: 300px;
+  padding: 20px;
+  background-color: #402f8f;
 }
 
-.we p{
- width: 587px;
- height: 52px;
- margin-top: 13px;
- margin-left: 427px;
- color: white;
+.add {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.final {
+  display: flex;
+}
+.final ul {
+  display: flex;
+  margin-right: 90px;
+}
+.final li {
+  margin-left: 40px;
+}
+.foot {
+  margin-left: 100px;
 }
 
-.matt{
+.imgry{
+    width: 600px;
+    height: 590px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+}
+
+.ham {
+  display: none;
+}
+@media (min-width: 319px) and (max-width: 560px) {
+  .kon {
+    height: 20px;
+    position: relative;
+    right: 4rem;
+  }
+  .ham {
+    display: block;
+    height: 30px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .Virtual {
+    flex-direction: column;
+    height: 70px;
+    text-align: center;
+    position: relative;
+    bottom: 15rem;
+    right: 2rem;
+    margin-bottom: 25px;
+  }
+  .imgry {
+    width: 400px;
+    position: relative;
+    bottom: 8rem;
+  }
+  .use {
+    height: 40px;
+    width: 90px;
+  }
+  .Reality {
+    height: 60px;
+  }
+
+  .Services {
+    color: #fbfcfd;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top: 20rem;
+    font-size: x-small;
+    right: 25rem;
+  }
+
+  .Order {
+    position: relative;
+    top: 23rem;
+    display: block;
+    margin-top: 20px;
+  }
+  .checklist {
+    margin-bottom: 40px;
+    height: 220px;
+    font-size: xx-small;
+    padding: 30px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .checklist p {
+    width: 150px;
+    right: 8px;
+    position: relative;
+    font-size: xx-small;
+  }
+  .checklist h5 {
+    text-align: center;
+    font-size: small;
+  }
+  .Assistant {
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+    height: 220px;
+    font-size: xx-small;
+    padding: 30px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .Assistant h5 {
+    text-align: center;
+    font-size: small;
+  }
+  .Modules {
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+    height: 220px;
+    font-size: xx-small;
+    padding: 30px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .Modules h5 {
+    text-align: center;
+    font-size: small;
+  }
+  .Analyzer {
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+    height: 220px;
+    font-size: xx-small;
+    padding: 30px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+
+  .Analyzer h5 {
+    text-align: center;
+    font-size: small;
+  }
+  .you {
+    height: 300px;
+  }
+  .work {
+    height: 300px;
+    margin-left: 10px;
+  }
+  .talk {
+    flex-wrap: wrap;
+    text-align: center;
+    width: 250px;
+    font-size: 10px;
+    position: relative;
+    top: 40rem;
+    left: 31px;
+    margin-bottom: 50px;
+  }
+  .talk h1 {
+    font-size: 20px;
+  }
+  .info {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    width: 300px;
+    font-size: 10px;
+    position: relative;
+    top: 40rem;
+    right: 25px;
+  }
+  .info h1 {
+    font-size: 20px;
+  }
+  .Met {
+    position: relative;
+    font-size: 10px;
+    display: block;
+    top: 40rem;
+    margin-bottom: 600px;
+  }
+  .Rectangle {
+    display: block;
+  }
+  .Team {
+    position: relative;
+    left: rem;
+    margin-top: 90px;
+    width: 250px;
+  }
+  .Platform {
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+    height: 220px;
+    font-size: xx-small;
+    padding: 30px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .Platform h5 {
+    text-align: center;
+    font-size: small;
+  }
+  .Notification {
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+    height: 230px;
+    font-size: xx-small;
+    padding: 30px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 0px;
+  }
+  .Notification h5 {
+    text-align: center;
+    font-size: 12px;
+  }
+  .sun {
+    height: 50px;
+  }
+  .Executive {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .Subscribe {
+    width: 250px;
+    margin-left: 29px;
+    position: relative;
+    font-size: 10px;
+  }
+  .ram {
+    position: relative;
+    left: 4px;
+  }
+  .Subscribe h1 {
+    font-size: 20px;
+  }
+  .mail {
+    width: 100px;
+    position: relative;
+    display: none;
+  }
+  body {
+    width: 100%;
+  }
+  footer {
+    height: 1100px;
+    width: 100%;
+    padding: 20px;
+  }
+  .footone {
+    width: 300px;
+    font-size: 10px;
+    display: block;
+  }
+  .ham {
     display: flex;
-}
+    height: 30px;
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+  }
+  .add {
+    position: relative;
+  }
+  .tom {
+    position: relative;
+    top: 1rem;
+    right: 7rem;
+    font-size: 10px;
+  }
+  .final {
+    position: relative;
+    right: 2rem;
+    font-size: 10px;
+    top: 2rem;
+  }
+  .working {
+    margin-right: 100px;
+  }
 
-/* .serv{
-    padding: 20px 100px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-columns: 300px;
-} */
+  .use {
+    margin-top: 30px;
+  }
 
-.last{
- /* height: 310px; */
- /* margin-top: 165px;
- margin-left: 135px; */
- border-radius: 34px;
- background-color: rgba(15, 15, 15, 0.123);
- color: white;
-}
-
-.last h3{
- margin-top: 28px;
- margin-left: 64px;
-}
-
-.last p{
+  .Services p {
     padding: 10px;
+  }
+
+  .far {
+    margin-top: 220px;
+    width: 320px;
+  }
+
+  .Virtual {
+    margin-top: 50px;
+  }
+
+  .main {
+    margin-top: 180px;
+  }
 }
 
-.ghik{
- width: 38px;
- height: 38px;
- margin-top: 20px;
- margin-left: 20px;
-}
-
-.list{
- width: 74px;
- height: 74px;
- margin-top: 25px;
- margin-left: 155px;
- border-radius: 50px;
- background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
- color: white;
-}
-
-.learn{
-   margin: 20px auto;
-}
-
-.listwo{
- width: 74px;
- height: 74px;
- /* margin-top: 25px;
- margin-left: 155px; */
- border-radius: 50px;
- background: linear-gradient(180deg, #D97F95 0%, #923250 100%);
- color: white;
-}
-
-.two h3{
- margin-top: 28px;
- margin-left: 64px;
-}
-
-.two p{
-    padding: 10px;
-}
-
-.two{
- width: 370px;
- height: 310px;
- /* margin-top: 165px;
- margin-left: 135px; */
- border-radius: 34px;
- background-color: rgba(15, 15, 15, 0.123); 
- color: white;
-} 
-
-.three{
- width: 370px;
- height: 310px;
- /* margin-top: 165px;
- margin-left: 135px; */
- border-radius: 34px;
- background-color: rgba(15, 15, 15, 0.123); 
- color: white; 
-}
-
-.three h3{
-  margin-top: 28px;
- margin-left: 64px;
-}
-
-.three p{
-    padding: 10px;
-}
-
-.listhree{
- width: 74px;
- height: 74px;
- margin-top: 25px;
- margin-left: 155px;
- border-radius: 50px;
- background: linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);
- color: white;
-}
-
-.bit{
- width: 370px;  
- height: 310px;
- /* margin-top: 165px;
- margin-left: 135px; */
- border-radius: 34px;
- background-color: rgba(15, 15, 15, 0.123);  
- color: white;   
-}
-
-.bittwo{
- width: 74px;
- height: 74px;
- /* margin-top: 25px;
- margin-left: 155px; */
- border-radius: 50px;
- background: linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%); 
- color: white;
-}
-
-.bit h3{
- margin-top: 28px;
- margin-left: 64px;
-}
-
-.bit p{
-    padding: 10px;
-}
-
-.sit p{
-    padding: 10px;
-}
-
-.sit h3{
- margin-top: 28px;
- margin-left: 64px;
-}
-
-.sit{
- width: 370px;  
- height: 310px;
- /* margin-top: 165px;
- margin-left: 135px; */
- border-radius: 34px;
- background-color: rgba(15, 15, 15, 0.123);  
- color: white;   
-}
-
-.bithree{
- width: 74px;
- height: 74px;
- margin-top: 25px;
- margin-left: 155px;
- border-radius: 50px; 
- background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
- color: white;
-}
-
-.fit p{
-    padding: 10px;;
-}
-
-.fit h3{
- margin-top: 28px;
- margin-left: 64px;
-}
-
-.fit{
- width: 370px;  
- height: 310px;
- /* margin-top: 165px;
- margin-left: 135px; */
- border-radius: 34px;
- background-color: rgba(15, 15, 15, 0.123); 
- color: white;
-}
-
-.bitone{
- width: 74px;
- height: 74px;
- margin-top: 25px;
- margin-left: 155px;
- border-radius: 50px; 
- background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%); 
- color: white;
-}
-
-.woll{
- width: 582px;
- height: 331px;
- margin-top: 200px;
- margin-left: 18px;
- color: white;
-}
-
-.vid{
- width: 582px;
- height: 331px;
- margin-top: 271px;
- margin-left: 130px;
- color: white;
-}
-
-.work h3{
+@media (min-width: 601px) and (max-width: 766px) {
+  .Reality {
+    height: 70px;
+  }
+  .Virtual {
+    margin-bottom: 300px;
+    position: relative;
+    bottom: 10rem;
+  }
+  .imgry {
+    position: relative;
+    left: 3rem;
+  }
+  .we {
     text-align: center;
-    color: white;
+  }
+  .talk {
+    position: relative;
+    top: 1rem;
+  }
+  .cat {
+    position: relative;
+    left: 25px;
+  }
+  .Notification {
+    margin-bottom: 500px;
+  }
+  .info {
+    position: relative;
+    top: 20rem;
+  }
+  .working {
+    position: relative;
+    right: 5rem;
+  }
+  .nothing {
+    position: relative;
+    left: 2rem;
+  }
+  .Rectangle {
+    position: relative;
+    left: 30px;
+    margin-top: 40px;
+  }
+  .Subscribe {
+    left: 30px;
+  }
 }
+@media (min-width: 767px) and (max-width: 800px) {
+  .ham {
+    display: none;
+  }
+  .Order {
+    width: 100%;
+  }
+  .checklist {
+    width: 380px;
+  }
+  .Reality {
+    height: 80px;
+  }
+  .imgry {
+    height: 400px;
+    position: relative;
 
-.work p{
- width: 480px;
- height: 51px;
- margin-left: 420px;
- margin-top: 20px;
- color: white;
-}
+    right: 6rem;
+  }
+  .Virtual {
+    width: 120px;
+  }
+  .main {
+    position: relative;
+    font-size: 10px;
+    margin-bottom: 100px;
+  }
+  .Services {
+    width: 300px;
+    font-size: 10px;
+    position: relative;
+    margin: auto;
+  }
+  .checklist {
+    width: 200px;
+  }
+  .checklist h5 {
+    font-size: 15px;
+  }
 
-.sunny{
- width: 210px;
- height: 233px;
- border-radius: 20px 20px;
- margin-top: 13px;
- margin-left: 135px;
- background-color: rgba(0, 0, 0, 0.089);
- color: white;
-}
+  .Assistant {
+    width: 200px;
+  }
+  .Assistant h5 {
+    font-size: 15px;
+  }
+  .Platform {
+    width: 200px;
+  }
+  .Platform h5 {
+    font-size: 15px;
+  }
+  .Modules {
+    width: 200px;
+  }
+  .Modules h5 {
+    font-size: 13px;
+  }
+  .Analyzer {
+    width: 200px;
+  }
+  .Analyzer h5 {
+    font-size: 15px;
+  }
+  .Notification {
+    width: 200px;
+  }
+  .Notification h5 {
+    font-size: 12px;
+  }
+  .talk {
+    height: 400px;
+    position: relative;
+    right: 2rem;
+  }
+  .cat h1 {
+    font-size: 20px;
+  }
+  .cat {
+    font-size: x-small;
+    width: 300px;
+  }
+  .info {
+    height: 400px;
+    position: relative;
+    margin-bottom: 200px;
+  }
+  .nothing {
+    font-size: x-small;
+    width: 300px;
+  }
+  .nothing h1 {
+    font-size: 20px;
+  }
+  .sun {
+    height: 90px;
+  }
+  .Executive {
+    font-size: 10px;
+    height: 200px;
+    width: 130px;
+  }
+  .con {
+    height: 10px;
+    position: relative;
+    bottom: 1rem;
+  }
+  .Executive h5 {
+    font-size: 15px;
+  }
+  .Subscribe {
+    width: 600px;
+    font-size: x-small;
+  }
+  .Subscribe h1 {
+    font-size: 30px;
+  }
+  .mail {
+    width: 400px;
+  }
 
-.sunny img{
-    margin-left: 45px;
-}
+  footer {
+    height: 300px;
+  }
 
-.sunny h4{
-    text-align: center;
-}
+  .you{
+    width: 400px;
+    height: 370px;
+  }
 
-.sunny p{
-    text-align: center;
-}
+  .work{
+    width: 400px;
+    height: 370px;
+  }
 
-.jesia{
- width: 210px;
- height: 233px;
- border-radius: 20px 20px;
- margin-top: 13px;
- margin-left: 135px;
- background-color: rgba(0, 0, 0, 0.089);
- color: white;
-}
-
-.jesia img{
-    margin-left: 45px;
-}
-
-.jesia h4{
-    text-align: center;
-}
-
-.jesia p{
-    text-align: center;
-}
-
-.alex{
- width: 210px;
- height: 233px;
- border-radius: 20px 20px;
- margin-top: 13px;
- margin-left: 135px;
- background-color: rgba(0, 0, 0, 0.089);
- color: white;
-}
-
-.alex img{
-    margin-left: 45px;
-}
-
-.alex h4{
-    text-align: center;
-}
-
-.alex p{
-    text-align: center;
-}
-
-.mou{
- width: 210px;
- height: 233px;
- border-radius: 20px 20px;
- margin-top: 13px;
- margin-left: 120px;
- background-color: rgba(0, 0, 0, 0.089);
- color: white;
-}
-
-.mou img{
-    margin-left: 45px;
-}
-
-.mou h4{
-    text-align: center;
-}
-
-.mou p{
-    text-align: center;
-}
-
-span{
-    margin-right: 30px;
-    color: white;
-}
-
-.term{
-    margin-right: 50px;
-}
-
-.zone{
-    margin-left: 80px;
-    color: white;
-}
-
-.footwo{
- width: 90%;
- height: 299px;
- margin-top: 192px;
- margin-left: 43px;
-}
-
-.sec{
- width: 178px;
- height: 200px;
- margin-top: 12px;
- margin-left: 90px;
- color: white;
-}
-
-.third{
- width: 167px;
- height: 200px;
- margin-top: 10px;
- margin-left: 79px;
- color: white;
-}
-
-.fourth{
- width: 136px;
- height: 200px;
- margin-top: 2px;
- margin-left: 43px;
- color: white;
-}
-
-.fifth{
- width: 122px;
- height: 200px;
- margin-top: 2px; 
- margin-left: 77px;
- color: white;
-}
-
-.first img{
-    margin-right: 20px;
-    margin-top: 10px;
-}
-
-.second{
- width: 1170px;
- height: 295px;
- margin-top: 99px;
- margin-left: 135px;
- border-radius:30px  ;
- background-color: rgba(0, 0, 0, 0.13);
- color: white;
-}
-
-.sub{
-    text-align: center;
-}
-
-.secondone{
- width: 860px;
- height: 80px;
- margin-top: 36px;
- margin-left: 190px;
- border-radius: 50px;
- background-color: rgba(0, 0, 0, 0.096);
-}
-
-.ten{
- width: 198px;
- height: 30px;
- margin-top: 25px;
- margin-left: 33px;
- background-color: transparent;
- border: none;
-}
-
-.btn{
- width: 196px;
- height: 60px;
- margin-top: 8px;
- margin-left: 44px;
- border-radius: 70px;
-}
-
-@media (min-width:319px) and (max-width:560px) {
-    
+  .Rectangle{
+    width: 100% ;
+    height: 200px;
+  }
 }
