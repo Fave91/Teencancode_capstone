@@ -112,3 +112,13 @@ a {
   border-radius:70px;
   display: none;
  }
+
+ .like, a:link{
+  text-decoration: underline;
+  color: lightblue;
+ }
+
+ .like, a:hover{
+  color: white;
+  background-color: rgb(24, 194, 95);
+ }
