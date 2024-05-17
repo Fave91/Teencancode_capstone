@@ -90,18 +90,22 @@ a {
 .secondone {
   /* margin-top: 36px;
   margin-left: 190px; */
-  border-radius: 50px;
-  padding: 15px;
-  background-color: rgba(0, 0, 0, 0.096);
+ 
 }
 
 .ten {
-  width: 198px;
+   border-radius: 50px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.096);
+  width: 100%;
+  border: none;
+  /* width: 198px;
   height: 30px;
   margin-top: 25px;
   margin-left: 33px;
   background-color: transparent;
   border: none;
+   */
 }
 
 .btnn {
@@ -114,11 +118,27 @@ a {
  }
 
  .like, a:link{
-  text-decoration: underline;
-  color: lightblue;
+  text-decoration: none;
+  color: white;
  }
 
  .like, a:hover{
   color: white;
-  background-color: rgb(24, 194, 95);
+  
+ }
+
+ .linkChanged{
+  color: white;
+ }
+
+ .our{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+
+ .we{
+  width: 55%;
+  text-align: center;
  }
